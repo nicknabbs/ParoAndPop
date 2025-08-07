@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-08-07T15:34:48.497Z",
+  "etsyProductCount": 131,
+  "updates": {
+    "htmlFiles": 131,
+    "jsonFiles": 3
+  },
+  "priceRanges": {
+    "under20": 28,
+    "from20to30": 71,
+    "from30to40": 21,
+    "over40": 11
+  },
+  "topProducts": [
+    {
+      "title": "Christmas Vacation Cat Earrings - Holiday Light Wrapped Cat ...",
+      "price": 39.9,
+      "quantity": 9
+    },
+    {
+      "title": "F1 Merch, Lewis Hamilton, Daniel Ricciardo, Handmade Box Box...",
+      "price": 26.57,
+      "quantity": 68
+    },
+    {
+      "title": "National Lampoon Moose Mug Earrings - Handcrafted White Wood...",
+      "price": 24.49,
+      "quantity": 15
+    }
+  ]
+}
