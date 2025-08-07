@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Get in Touch | Paro & Pop</title>
+    <meta name="description" content="Have questions about our handmade earrings? Contact Paro & Pop for customer support, custom orders, or wholesale inquiries. We're here to help!">
+    <meta name="keywords" content="contact us, customer service, handmade earrings support, custom jewelry orders, wholesale inquiries">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contact Paro & Pop - Handmade Earrings">
+    <meta property="og:description" content="Get in touch with us for questions about orders, custom designs, or wholesale opportunities.">
+    <meta property="og:url" content="https://handmadeearrings.com/contact.html">
+    <meta property="og:type" content="website">
+    
+    <link rel="canonical" href="https://handmadeearrings.com/contact.html">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact Paro & Pop",
+        "description": "Contact page for Paro & Pop handmade earrings",
+        "url": "https://handmadeearrings.com/contact.html"
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="."><span class="company-name">Paro <span class="ampersand">&</span> Pop</span></a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href=".">Home</a></li>
+                    <li><a href="products.html">Shop All</a></li>
+                    <li class="dropdown">
+                        <a href="#">Collections</a>
+                        <div class="dropdown-content">
+                            <a href="christmas-collection.html">Christmas Collection</a>
+                            <a href="halloween-collection.html">Halloween Collection</a>
+                            <a href="racing-collection.html">F1 Racing Collection</a>
+                            <a href="music-collection.html">Music Collection</a>
+                            <a href="bestsellers.html">Bestsellers</a>
+                        </div>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li class="cart-link">
+                        <a href="cart.html">
+                            Cart (<span id="cartCount">0</span>)
+                        </a>
+                    </li>
+                </ul>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="page-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>Contact Us</h1>
+                <p class="page-subtitle">We'd love to hear from you! Get in touch for questions, custom orders, or just to say hello.</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; max-width: 1000px; margin: 40px auto;">
+                <!-- Contact Form -->
+                <div>
+                    <h2 style="font-family: var(--font-display); margin-bottom: 30px;">Send Us a Message</h2>
+                    <form class="contact-form" style="background: white; padding: 0; box-shadow: none; margin: 0;">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a topic...</option>
+                                <option value="order">Order Question</option>
+                                <option value="custom">Custom Design Request</option>
+                                <option value="wholesale">Wholesale Inquiry</option>
+                                <option value="shipping">Shipping Question</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required 
+                                      placeholder="Tell us how we can help you..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+                
+                <!-- Contact Information -->
+                <div>
+                    <h2 style="font-family: var(--font-display); margin-bottom: 30px;">Get in Touch</h2>
+                    
+                    <div style="margin-bottom: 30px;">
+                        <h3 style="font-size: 1.2rem; margin-bottom: 10px;">Customer Service</h3>
+                        <p style="margin-bottom: 10px;">
+                            <strong>Email:</strong> <a href="mailto:hello@paroandpop.com">hello@paroandpop.com</a>
+                        </p>
+                        <p style="margin-bottom: 10px;">
+                            <strong>Response Time:</strong> Within 24 hours
+                        </p>
+                        <p>
+                            <strong>Hours:</strong> Monday - Friday, 9 AM - 5 PM EST
+                        </p>
+                    </div>
+                    
+                    <div style="margin-bottom: 30px;">
+                        <h3 style="font-size: 1.2rem; margin-bottom: 10px;">Order Support</h3>
+                        <p style="margin-bottom: 10px;">
+                            <strong>Email:</strong> <a href="mailto:orders@paroandpop.com">orders@paroandpop.com</a>
+                        </p>
+                        <p>
+                            For questions about existing orders, shipping status, or tracking information.
+                        </p>
+                    </div>
+                    
+                    <div style="margin-bottom: 30px;">
+                        <h3 style="font-size: 1.2rem; margin-bottom: 10px;">Wholesale Inquiries</h3>
+                        <p style="margin-bottom: 10px;">
+                            <strong>Email:</strong> <a href="mailto:wholesale@paroandpop.com">wholesale@paroandpop.com</a>
+                        </p>
+                        <p>
+                            Interested in carrying our products in your store? We'd love to work with you!
+                        </p>
+                    </div>
+                    
+                    <div style="margin-bottom: 30px;">
+                        <h3 style="font-size: 1.2rem; margin-bottom: 10px;">Follow Us</h3>
+                        <div class="social-links" style="justify-content: flex-start;">
+                            <a href="#" aria-label="Facebook" title="Follow us on Facebook">📘</a>
+                            <a href="#" aria-label="Instagram" title="Follow us on Instagram">📷</a>
+                            <a href="#" aria-label="Pinterest" title="Follow us on Pinterest">📌</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- FAQ Callout -->
+            <div style="background: var(--accent-color); padding: 40px; border-radius: 12px; text-align: center; margin: 60px auto; max-width: 800px;">
+                <h2 style="font-family: var(--font-display); margin-bottom: 20px;">Frequently Asked Questions</h2>
+                <p style="margin-bottom: 20px;">
+                    Find quick answers to common questions about orders, shipping, and our products.
+                </p>
+                <a href="faq.html" class="btn-primary" style="background: white; color: var(--primary-color);">
+                    Visit FAQ Page
+                </a>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="products.html">All Products</a></li>
+                        <li><a href="christmas-collection.html">Christmas Collection</a></li>
+                        <li><a href="bestsellers.html">Bestsellers</a></li>
+                        <li><a href="stocking-stuffers-for-her.html">Stocking Stuffers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                        <li><a href="care-instructions.html">Care Instructions</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="stocking-stuffers-for-her.html">Gift Guide</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Connect</h3>
+                    <p>Follow us for daily inspiration!</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Pinterest">📌</a>
+                    </div>
+                    <div class="trust-badges">
+                        <p>🇺🇸 Handmade in USA</p>
+                        <p>🔒 Secure Checkout</p>
+                        <p>📦 Fast Shipping</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 <span class="company-name">Paro <span class="ampersand">&</span> Pop</span> All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script>
+        // Handle contact form submission
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value
+            };
+            
+            // Here you would normally send to your backend
+            console.log('Contact form submission:', formData);
+            
+            // Show success message
+            this.innerHTML = `
+                <div style="text-align: center; padding: 40px; background: #f0f8f0; border-radius: 8px;">
+                    <h3 style="color: #4caf50; margin-bottom: 20px;">✓ Message Sent Successfully!</h3>
+                    <p>Thank you for contacting us. We'll respond within 24 hours.</p>
+                    <button class="btn-primary" onclick="location.reload()" style="margin-top: 20px;">Send Another Message</button>
+                </div>
+            `;
+            
+            // Track with analytics if available
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'contact_form_submit', {
+                    subject: formData.subject
+                });
+            }
+        });
+    </script>
+    
+    <script>
+        function toggleMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            const nav = document.querySelector('nav');
+            
+            if (!nav.contains(event.target) && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
