@@ -1,0 +1,925 @@
+{
+  "totalProducts": 131,
+  "successfulUpdates": 131,
+  "failedUpdates": 0,
+  "timestamp": "2025-08-07T01:07:42.250Z",
+  "products": [
+    {
+      "id": "1",
+      "title": "Handpainted Christmas Light Earrings, Eco-Friendly Wooden Holiday Dangles, Festive Hypoallergenic Gold Hooks, Artisan Xmas Jewelry",
+      "price": 25.17,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "2",
+      "title": "F1 Merch, Lewis Hamilton, Daniel Ricciardo, Handmade Box Box Box F1 Dangle Earrings & Pins -  Perfect for Racing Fans, Lightweight",
+      "price": 26.57,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "3",
+      "title": "Indiana State Shaped Stud Earrings - Laser Engraved & Hand Painted with '500' for Indy Car Race",
+      "price": 25.2,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "4",
+      "title": "Quirky Guster Band Earrings – Handmade Sublimated Wood Jewelry for Fans",
+      "price": 39.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "5",
+      "title": "Zip Code Ornament - There's No Place Like Home  - Holiday and Christmas Personalized Decor and Gift Made To Order",
+      "price": 24.08,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "6",
+      "title": "Teacher Bookmarks – Metal Sublimated Gift Set – Handmade Thank You Teacher Gifts – Individual or Bundle – Classroom Appreciation – US Made",
+      "price": 10,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "7",
+      "title": "Racing Heart Checkered Flag Earrings – Hand-Painted & Glitter Sealed – Perfect for Race Fans (F1, IndyCar, NASCAR)",
+      "price": 34.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "8",
+      "title": "Back to school supplies kawaii large hand painted stud earrings single or bundle teacher and student gift",
+      "price": 16.8,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "9",
+      "title": "Friends TV Show Turkey Earrings | Thanksgiving Jewelry | Hand Painted | Funny Friends Fan Gift | Holiday Earrings",
+      "price": 37.39,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "10",
+      "title": "Back To School Teacher Gift Student Symbols and Subjects School Bus Apples Globe Paint Palette Science Beakers Pencils Wooden Stud Earrings",
+      "price": 20,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "11",
+      "title": "Skeleton Halloween Dangle Wooden Laser Engraved Hand-Painted Large Spooky Theme Funny Gothic Black and White Teardrop Shaped Party Earrings",
+      "price": 27.92,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "12",
+      "title": "Creepy Halloween Stud Collection Bloody Knife Vampire Werewolf Jack-o-Lantern, Skull, Witch, Scary Clown, RIP Tombstone Wooden Earrings",
+      "price": 16.09,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "13",
+      "title": "Personalized Elf Report Ornament for Kids – Naughty or Nice Slider – Custom Christmas Decor with Child’s Name- FREE Shipping",
+      "price": 40.97,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "14",
+      "title": "Cute Fun Halloween Symbols and Icons Ghost Frankenstein Witch Hat Candy Corn Bats Pumpkins Cats Wooden Stud Earrings Hand-Painted Engraved",
+      "price": 16.09,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "15",
+      "title": "Custom Event Luggage Tag Guster Fans Travel Gift Accessory",
+      "price": 24.49,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "16",
+      "title": "Boho Wooden Hoop Earrings - Eco-Friendly Hand-Painted Leather Dangles - Artisan Crafted Rustic Jewelry - Unique Women's Accessory",
+      "price": 22.37,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "17",
+      "title": "Cute Nurse Badge Reels | Retractable ID Holders with Funny Nurse Quotes | Gift for Nurses, Healthcare Workers",
+      "price": 27,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "18",
+      "title": "Festive Christmas Gnome Earrings – Hand-Painted Holiday Jewelry –Cute Wooden Gnome Earrings for Christmas– Lightweight & Fun –Free Shipping!",
+      "price": 23,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "19",
+      "title": "Guster the band wooden pin featuring Big Friend from the album Parachute",
+      "price": 9.09,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "20",
+      "title": "Sip in Style with Hand-Painted Wooden Stud Earrings - Barista's Collection - Perfect as a Gift Set for Coffee Lovers",
+      "price": 18.17,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "21",
+      "title": "Handmade Guster Big Friend Badge Reel - Unique Office Accessory, Durable Retractable ID Holder, Cute Band Inspired Design",
+      "price": 20.97,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "22",
+      "title": "Guster Big Friend Album Pin, Magnet, Keychain - Exclusive Era Tour Music Merchandise",
+      "price": 26.57,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "23",
+      "title": "Personalized Wooden Swan Ornament - Engraved Lakeland, Florida - Custom City Name - Handmade Home Decor - Unique Christmas Ornament Gift",
+      "price": 25.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "24",
+      "title": "Elegant Hand-Painted Wooden Swan Earrings - Lakeland's Signature Bird - Unique Artisan Crafted Jewelry for Her, Sealed and Durable",
+      "price": 27.97,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "25",
+      "title": "Christmas Elf Hat Earrings - Buddy Inspired, Festive Holiday Jewelry, Handcrafted, Unique Secret Santa Gift, Lightweight Wood -FREE Shipping",
+      "price": 21.06,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "26",
+      "title": "Guster Band Hair Claw Clip With Album Icons Logos Large Small",
+      "price": 19,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "27",
+      "title": "Guster-Inspired Earrings & Keychains - Parachute Album Nostalgia",
+      "price": 23.77,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "28",
+      "title": "Dragon Book Hair Clip | Laser-Cut Wood Fantasy Accessory | Hand-Painted Bookish Gift",
+      "price": 24.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "29",
+      "title": "Dragon Bookshelf Decor | Laser-Cut Wood Fantasy Accessory | Hand-Painted Book Lover Gift",
+      "price": 24.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "30",
+      "title": "USA Stud Earrings | Independence Day | 4th of July | Memorial Day | Hand Painted Homemade | Laser Engraved Wooden Earrings",
+      "price": 17.75,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "31",
+      "title": "F1 Racing Tumbler - 20oz Stainless Steel Insulated Cup Formula one racing- FREE SHIPPING",
+      "price": 66,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "32",
+      "title": "Santa Hat Boho Floral Earrings – Handcrafted, Wooden, Hand-Painted Christmas Dangle Earrings - Holiday Gift for Her",
+      "price": 32.19,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "33",
+      "title": "Easter Egg Tokens - Egg Hunt Prizes Set - Fun Easter Tokens for Kids",
+      "price": 27.97,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "34",
+      "title": "Tic Tac Toe Game Homemade and Hand-Painted Wooden Yellow Frame and Orange Couch Friends Set TV Show Sitcom Fan Gift",
+      "price": 37.3,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "35",
+      "title": "Funny Christmas Ornament | Sarcastic Parent Holiday Decor | Wood Tree Tops Glisten Quote | Rustic Handcrafted Gift | Mom Humor",
+      "price": 29.5,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "36",
+      "title": "Hand-Painted Christmas Tree Earrings – Festive Holiday Jewelry – Pearl Ornaments & Star – Free Shipping!",
+      "price": 40.39,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "37",
+      "title": "Hand-Painted Wooden Cardinal Stud Earrings | Red Bird Christmas & Memorial Gift | Lightweight Basswood Nature Jewelry, Made in USA, Handmade",
+      "price": 18.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "38",
+      "title": "Guster the band wooden pin with tie tack butterfly clutch backing",
+      "price": 12.73,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "39",
+      "title": "Hand-Painted Hummingbird Wooden Earrings - Unique Dangle Art Jewelry - Nature-Inspired Fashion Accessory for Bird Lovers",
+      "price": 27.97,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "40",
+      "title": "Here Lies Your Opinion Coffin Funny Creepy Halloween Dangle Laser Engraved Hand Painted Wooden Earrings",
+      "price": 19.59,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "41",
+      "title": "Funny Reversible Dishwasher Magnet – Cleaned by Dishwasher or Dog Licked ‘Em Clean – Laser Engraved Wooden Kitchen Gift for Dog Lovers",
+      "price": 11,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "42",
+      "title": "Halloween Sublimated Coaster Set of 4 | Scary Pumpkin, Skeleton, Haunted House, Ghost | Long-Lasting Drink Coasters | Halloween Decor",
+      "price": 65.79,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "43",
+      "title": "Christmas Coaster Set of 4 | Santa, Reindeer, Nutcracker, Snowman | Long-Lasting Holiday Drink Coasters | Christmas Decor",
+      "price": 60.62,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "44",
+      "title": "Patriotic Constitution Dangle Drop Earrings | 4th of July | Memorial Day | Independence Day Accessories | Hand Painted",
+      "price": 20,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "45",
+      "title": "Friends TV Show Frame Earrings - Flat or 3D Style - Ill Be There for You - Rachel Green - Monica Geller - Unique TV Show Jewelry",
+      "price": 21.06,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "46",
+      "title": "Wooden Breast Cancer Awareness Earrings | Engraved & Hand-Painted | Gift Box Included | Pink Ribbon Jewelry for a Cause",
+      "price": 30.59,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "47",
+      "title": "Walnut Wood Geometric Stud Earrings - Hypoallergenic & Handmade - Unique, Lightweight, Laser-Engraved Design - Boho Fashionable Accessory",
+      "price": 15.54,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "48",
+      "title": "Tic Tac Toe Game Homemade and Hand-Painted Wooden Board Game Featuring Guster Ping Pong Ball Airport Song Big Friend Music Fan Gift",
+      "price": 27.3,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "49",
+      "title": "3D Santa Breakthrough Ornament  Double-Sided Metal Sublimated Christmas Decor  Funny Santa Bum Design | Handmade Holiday Ornament  Christmas",
+      "price": 35,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "50",
+      "title": "VOTE - USA - Peace - American Freedom Red White Blue Star Teardrop Wooden Hand-Painted Dangle Earrings",
+      "price": 25.17,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "51",
+      "title": "Customizable Dear Santa Letter Christmas Ornament | Personalized Child’s Name | FREE SHIPPING | 2024 Holiday Keepsake | Kids Letter to Santa",
+      "price": 34,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "52",
+      "title": "Funny Cat Christmas Ornament | Oh Christmas Tree Your Ornaments Are History | Hand-Painted Two-Layer Basswood | Cat Lovers Holiday Decor",
+      "price": 33.65,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "53",
+      "title": "Custom Strawberry Basket Ornament – Hand-Painted & Assembled – Personalized with Your City- Plant City Strawberry-Themed Decor-FREE SHIPPING",
+      "price": 25.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "54",
+      "title": "Vintage Floral Wood Dangle Earrings – Hand-Painted Lightweight Jewelry – Cottagecore Aesthetic – Antique Style Oval Frame – Handmade in USA",
+      "price": 18.98,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "55",
+      "title": "3D Effect Halloween Teardrop Earrings | Creepy Spooky Skeleton, Cat, Clown Spider Designs | Sublimation Earrings |Homemade Halloween Jewelry",
+      "price": 20,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "56",
+      "title": "Halloween Teacher Earrings | Dangle Pencils with Bats, Pumpkins, Skulls, & Ghosts | Hand-Painted Halloween Jewelry | Handmade School Gift",
+      "price": 25.89,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "57",
+      "title": "Custom Dog Breed Christmas Ornament | Personalized Pet Name & Year | 70 Breeds Available | Wooden Sublimation | Made to Order Holiday Decor",
+      "price": 27.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "58",
+      "title": "Ghost Earrings with Tumblers | Wooden Engraved Dangle & Stud Earrings | Halloween Earrings | Spooky Ghost Jewelry |  Ghost Earrings",
+      "price": 20,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "59",
+      "title": "Funny Ghost Butt Cheeks Earrings | Halloween Dangle Earrings | Laser Etched Wooden Ghost Jewelry | Quirky Spooky Accessories",
+      "price": 15.4,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "60",
+      "title": "Personalized ZIP Code Christmas Ornament - Custom Holiday Decor 2024 - Home for the Holidays - Unique Christmas Gift Idea",
+      "price": 25.03,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "61",
+      "title": "Halloween Earrings | Floral Boho Ghost Jewelry | Laser Engraved Wood | Hand Painted | Spooky Cute | Fall Autumn Accessories",
+      "price": 26.03,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "62",
+      "title": "Heart and Bow Tie Dangle Wooden Earrings Hand-Painted and Handmade Lightweight Valentines or Cute Everyday Dangle Stud Jewelry",
+      "price": 24.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "63",
+      "title": "Boho Style Dangle Earrings, Unique Striped Wood Earrings,  Lightweight & Stylish, Mother's day Perfect Gift",
+      "price": 16,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "64",
+      "title": "Heart Doodle Earrings – Walnut Wood with Gold Hardware – Handcrafted Valentine’s Gift - Laser Engraved and Handmade - Gemstones Vary",
+      "price": 22.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "65",
+      "title": "Heart-Shaped Wooden Dangle Earrings – Laser-Engraved Design – Valentine’s Day Jewelry - Gift for Her - Everyday Style",
+      "price": 21.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "66",
+      "title": "Elegant Cream Swan Dangle Earrings – Laser-Engraved Tulip and Crown Design – Hand-Painted and Assembled",
+      "price": 28.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "67",
+      "title": "Poppy Flower Dangle Earrings – Hand-Painted and Handmade",
+      "price": 19.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "68",
+      "title": "Mother Swan and Baby Cygnet Dangle Earrings – Hand-Painted Circular Design - Lakeland, Florida",
+      "price": 23.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "69",
+      "title": "Strawberry Dangle Earrings – Flower and Berry Design – Strawberry Festival Jewelry - Wooden, Lightweight, Hand-Painted and Assembled",
+      "price": 26.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "70",
+      "title": "Begonia Leaf and Flower Earrings – Hand-Painted Wooden Dangles",
+      "price": 24.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "71",
+      "title": "Lewis Hamilton - Red Bull & Ferrari F1 Pins - Max Verstappen, Wooden Racing Pins, Daniel Ricciardo",
+      "price": 15,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "72",
+      "title": "F1 Driver Keychain & Box Set | Daniel Ricciardo Lewis Hamilton 3D Initials | Wooden | Personalized Formula 1 Gift for Racing Fans",
+      "price": 25.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "73",
+      "title": "Mother's Day, Father's Day Formula 1 Keychain Gift - F1 Colors! Racing fans gift, Lewis Hamilton, Daniel Ricciardo, Max Verstappen",
+      "price": 20.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "74",
+      "title": "Hand Painted Boho Wooden Earrings - Customizable Laser Engraved Dangle Accessories for Any Occasion. Gift, Mother’s Day, birthday, Christmas",
+      "price": 25.2,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "75",
+      "title": "Friends & The Office Inspired Stud Earrings - Iconic TV Quotes Heart Jewelry - Perfect Fan Gift, Collectible Accessory Set",
+      "price": 32.17,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "76",
+      "title": "Nautical Anchor Earrings – Walnut Wood, Stainless Steel | Boat Lover Gift, Beach Jewelry | 3mm Thick Lightweight Earrings",
+      "price": 22.4,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "77",
+      "title": "Holiday Adorable Ghost Halloween Earrings - Handmade, Eucalyptus White Hardboard, Hypoallergenic Stainless Steel Hooks, Sublimation Printed",
+      "price": 16.8,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "78",
+      "title": "Custom Friends TV Show Earrings – “The Cushions Are the Essence of the Chair” | Eucalyptus Hardboard Sublimated | Fun Friends Jewelry Gift",
+      "price": 22.4,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "79",
+      "title": "Spooky Kitty Cat Halloween Dangle Earrings with Skulls Spider Webs Bats Witches Hat Butt Wooden Laser Engraved Charm Handmade Acrylic Paint",
+      "price": 29.4,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "80",
+      "title": "Patriotic Constitution Dangle Drop Earrings | 4th of July | Memorial Day | Independence Day Accessories | Hand Painted",
+      "price": 20,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "81",
+      "title": "Mistletoe Dangle Earrings - Hypoallergenic Hooks, Handpainted Wooden Festive Jewelry, Perfect Christmas Gift",
+      "price": 25.17,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "82",
+      "title": "Handcrafted Wooden Heart Earrings - Valentine's Day Collection - Wine Red, Indian Blue, Scarlet Glitter, Pale Pink, Natural Finish",
+      "price": 24,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "83",
+      "title": "Personalized Wooden Graduation Money Holder – Custom Name & Message Cash Gift Holder – Laser Cut and Hand Painted in USA",
+      "price": 15,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "84",
+      "title": "Customizable Ring Toss Game - Classic Hook & Swing Challenge - Height Easily adjusted - Personalized Fun for All Ages",
+      "price": 48.97,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "85",
+      "title": "National Lampoon Moose Mug Earrings - Handcrafted White Wooden Jewelry, Christmas Vacation Inspired, Festive Gift, Unique Accessory",
+      "price": 24.49,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "86",
+      "title": "F1 IndyCar Wooden Luggage Tag Customizable Personalized Made to Order",
+      "price": 23.1,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "87",
+      "title": "Rustic Wall Propagation Station, Set of 1 or 2, Wood Hanging Planter Glass Tube, Indoor Plant Decor, Minimalist Wall Art, Housewarming Gift",
+      "price": 50.39,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "88",
+      "title": "Personalized Pickleball Earrings - Custom Engraved Name, Fun Sayings,Handcrafted Sports Jewelry, Unique Pickleball Gift for Players and Fans",
+      "price": 17.49,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "89",
+      "title": "Photo Frame Magnet- Wooden, hand-painted - Heartfelt Mother’s Day Birthday Gift, Customizable Picture Holder",
+      "price": 30.8,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "90",
+      "title": "Christmas Vacation Cat Earrings - Holiday Light Wrapped Cat - FREE SHIPPING- Funny Christmas Jewelry - Unique Gift",
+      "price": 39.9,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "91",
+      "title": "Patriotic Constitution Dangle Drop Earrings | 4th of July | Memorial Day | Independence Day Accessories | Hand Painted",
+      "price": 20,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "92",
+      "title": "2024 Election Day Earrings & Pin Set - FREE SHIPPING - Republican Elephant Democrat Donkey Fun Voting Day Gift Lightweight, Hand-Painted",
+      "price": 42,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "93",
+      "title": "Bottle Opener for Dad | Father's Day Gift Personalized Wooden | Custom Engraved | Dad Jokes | Beer Lover | Unique Present",
+      "price": 20,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "94",
+      "title": "Custom Family Bunny Shelf Sitter – Personalized Easter Decor – Laser Engraved Wooden Sign",
+      "price": 34.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "95",
+      "title": "Pumpkin Pie Studs Wooden Lightweight Hand-Painted Fall Thanksgiving Earring Accessory",
+      "price": 23,
+      "hasDescription": true,
+      "hasTags": false
+    },
+    {
+      "id": "96",
+      "title": "Halloween Spooky Season Bloody Knife Wooden Hand-Painted Stud Earrings",
+      "price": 13,
+      "hasDescription": true,
+      "hasTags": false
+    },
+    {
+      "id": "97",
+      "title": "Spooky Season Spider Web Arachnid 3D Wooden Hand Painted Dangle Drop Earrings for Halloween Costume or Accessory",
+      "price": 23.79,
+      "hasDescription": true,
+      "hasTags": false
+    },
+    {
+      "id": "98",
+      "title": "Christmas Vacation Inspired Cat Ornament - Handpainted Wooden Decor, Quirky Christmas Vacation Movie Scene, Unique Festive Decoration",
+      "price": 32.19,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "99",
+      "title": "Friends-Inspired Frame Earrings - Iconic TV Show Accessory - Minimalist Sitcom Jewelry",
+      "price": 21.06,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "100",
+      "title": "Red Chili Pepper Wooden Hand-Painted Sparkly Stud Earrings For Food Fans and Carlos Sainz F1 Racing Fans",
+      "price": 20,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "101",
+      "title": "Wooden Easter Stud Earrings - Bunny, Peep, Chick, Sheep - Mix & Match or Full Set",
+      "price": 10.92,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "102",
+      "title": "Plant City & Lakeland Studs - Handcrafted Conversation Heart Earrings with Local Florida Sayings - Perfect Handmade Gift for Her",
+      "price": 32.17,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "103",
+      "title": "Super Bowl Football Earrings - Hand-Painted Walnut Wood, Sports Fan Gift, Game Day Statement Jewelry, Artisan Crafted, Superbowl Accessory",
+      "price": 20.97,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "104",
+      "title": "Handcrafted Wooden Christmas Stud Earrings - Festive Snowman, Santa, Candy Cane Designs - Perfect Holiday Gift",
+      "price": 22.39,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "105",
+      "title": "Unique Monstera Leaf Earrings - Handcrafted Tropical Jewelry, Perfect for Plant Lovers, Green Statement Accessories, Eco-Friendly Gift",
+      "price": 20.83,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "106",
+      "title": "Adorable Handcrafted Gnome Earrings - Perfect for Garden Lovers - Unique Whimsical Jewelry - Cute Fantasy Accessories - Gift for Her",
+      "price": 21.06,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "107",
+      "title": "Santa Hat & Moon Beard Earrings - Whimsical Christmas Jewelry with Star Charm - Unique Handcrafted Holiday Accessory",
+      "price": 25.17,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "108",
+      "title": "Buddy the Elf Shoe Earrings - Handcrafted Holiday Movie Inspired Jewelry - Festive Christmas Elf Accessory - Whimsical Winter Gift Idea",
+      "price": 21.06,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "109",
+      "title": "Handmade Santa Claus Christmas Earrings - Holiday Eucalyptus White Hardboard, Stainless Steel Hooks,Hypoallergenic, Sublimated for Longevity",
+      "price": 16.8,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "110",
+      "title": "Handmade Cat Earrings - Inspired by National Lampoon's Christmas Vacation - 9 Lives -Unique Laser Cut and Hand Painted Jewelry",
+      "price": 20.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "111",
+      "title": "Nautical Seashell Earrings | Beach Sea Life Jewelry | Starfish Wooden Hoops | Laser Engraved | Hand Painted | Coastal Dangle Earrings",
+      "price": 22.85,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "112",
+      "title": "Boho Vintage Floral Scallop Dangle Earrings, Black White Laser Engraved, Lightweight Wood Statement Jewelry, Handmade Gift for Her",
+      "price": 34.97,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "113",
+      "title": "F1 merch- Lewis Hamilton -iPhone case - Custom Driver Phone Cases - Daniel Ricciardo- Lando Norris- Max Verstappen - Formula one",
+      "price": 30.8,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "114",
+      "title": "Custom Funny Hat Patches- Gift for him: \"In Charge of Remote,\" \"Ask My Wife,\" \"Happy Wife Happy Life,\" \"Yes Dear,\" & More! Easy Iron-On",
+      "price": 11.19,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "115",
+      "title": "Formula 1 Inspired Bronze Lucky Coins - Laser Engraved F1 Driver Silhouettes with Motivational Quote",
+      "price": 41.97,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "116",
+      "title": "Easter Bunny Earrings - Leopard Print - Unique Hand-Painted Wooden Dangle Earrings with Fluffy Tails",
+      "price": 20.97,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "117",
+      "title": "Handmade Strawberry & Chocolate-Dipped Earrings - Hypoallergenic, Wooden, Painted - Perfect for Plant City Strawberry Festival - Lakeland FL",
+      "price": 19.57,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "118",
+      "title": "Valentine's Day Hand-Painted Wooden Stud Earrings - Sealed, Lightweight, Hypoallergenic, Love-Themed Jewelry Gift for Her",
+      "price": 18.17,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "119",
+      "title": "Personalized Family Christmas Ornament - Handpainted Wooden Keepsake, Customizable Festive Decor, Two Sizes Available",
+      "price": 32.19,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "120",
+      "title": "Friends Pivot Couch Earrings - Customizable Pivot Box - Unique TV Show Jewelry - Gift for Her - Sitcom Fan Earrings - Quirky Fun Accessory",
+      "price": 26.32,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "121",
+      "title": "Set of 4 Halloween Coasters - Ghost, Skeleton, Haunted House, Pumpkin - Spooky Decor - Perfect Halloween Gift - Unique Halloween Decor",
+      "price": 41.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "122",
+      "title": "Wooden Engraved Geometric Cross Dangle Drop Earrings",
+      "price": 34.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "123",
+      "title": "Sea Turtle Dangle Drop Wooden Laser Engraved Sea Beach Ocean Inspired Earrings",
+      "price": 26.59,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "124",
+      "title": "Florida State Wooden Wall Art - Handcrafted - Rustic Home Decor - 10x8\" Beach & Palms Silhouette",
+      "price": 100,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "125",
+      "title": "Hand-Painted Earring Collection - Daisy, Flamingo, Hibiscus, Palm Tree Designs - Laser-Cut & Sealed Jewelry",
+      "price": 20.99,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "126",
+      "title": "F1 Merch, Chic Formula 1 Racing Wooden Earrings - Lewis Hamilton, Daniel Ricciardo, Sports Race Car Enthusiast Jewelry",
+      "price": 37.17,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "127",
+      "title": "Personalized Mother’s Day Wooden Puzzle Sign, Custom Puzzle Sign, Mothers Day Gift Ideas, Gift for Mom, Grandma, Daughter, Aunt",
+      "price": 6.93,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "128",
+      "title": "Christmas Melted Snowman Ornament - 3 Variations (Red, Green, Black Hat) - Laser Engraved & Hand-Painted - Unique Holiday Gift 2024",
+      "price": 25.03,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "129",
+      "title": "Custom Office Coworker Christmas Ornament with Names - Personalized \"Best Team Ever\" 2024 - Layered, Hand-Painted Wooden",
+      "price": 33,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "130",
+      "title": "Handmade Christmas Rudolph Reindeer Dangle Earrings | Hand Painted Teardrop Holiday Jewelry | Sealed Protection | Gift for Her",
+      "price": 22.4,
+      "hasDescription": true,
+      "hasTags": true
+    },
+    {
+      "id": "131",
+      "title": "Hand-Painted Gingerbread Earrings – Laser-Cut Wooden Holiday Jewelry – Christmas Gift for Women",
+      "price": 21.99,
+      "hasDescription": true,
+      "hasTags": true
+    }
+  ]
+}
