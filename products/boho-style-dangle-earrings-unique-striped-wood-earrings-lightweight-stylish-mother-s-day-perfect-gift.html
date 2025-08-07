@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boho Style Dangle Earrings  Unique Striped Wood Earrings   Lightweight   Stylish  Mother s day Perfect Gift | Handmade Earrings | Artisan Jewelry</title>
     <meta name="description" content="Boho Style Dangle Earrings  Unique Striped Wood Earrings   Lightweight   Stylish  Mother s day Perfect Gift - Handmade with hypoallergenic gold hooks. Ships in 1-2 days. Only $38. Free shipping over $50.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
     <style>
         .product-gallery {
@@ -215,6 +216,27 @@
             const qty = document.getElementById('quantity');
             if (parseInt(qty.value) > 1) qty.value = parseInt(qty.value) - 1;
         }
+    </script>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            const nav = document.querySelector('nav');
+            
+            if (!nav.contains(event.target) && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
     </script>
 </body>
 </html>

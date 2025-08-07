@@ -8,13 +8,14 @@
     <meta name="keywords" content="about us, handmade jewelry story, artisan jewelry, family business, handcrafted earrings">
     
     <link rel="canonical" href="https://handmadeearrings.com/about.html">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "AboutPage",
-        "name": "About Paro & Pop",
+        "name": "About <span class="company-name">Paro <span class="ampersand">&</span> Pop</span>",
         "description": "The story of our family-owned handmade jewelry business"
     }
     </script>
@@ -25,7 +26,7 @@
         <nav>
             <div class="nav-container">
                 <div class="logo">
-                    <a href=".">Paro & Pop</a>
+                    <a href="."><span class="company-name">Paro <span class="ampersand">&</span> Pop</span></a>
                 </div>
                 <ul class="nav-menu">
                     <li><a href=".">Home</a></li>
@@ -54,12 +55,12 @@
     
     <main class="page-content">
         <div class="container">
-            <div class="page-header">
+            <div class="page-header about-hero">
                 <h1>Our Story: Handcrafted with Love</h1>
                 <p class="page-subtitle">From a small garage workshop to thousands of happy customers worldwide - discover the passion behind every pair of earrings we create.</p>
             </div>
             
-            <section class="our-story">
+            <section class="our-story text-page" class="about-content">
                 <h2>How It All Started</h2>
                 <p>Back in 2018, what began as a creative outlet during long winter evenings has blossomed into a thriving family business. Sarah, our founder, started crafting earrings in her garage workshop after watching "National Lampoon's Christmas Vacation" for the hundredth time and being inspired to create something that would bring joy and spark conversations.</p>
                 
@@ -121,11 +122,32 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Paro & Pop All rights reserved.</p>
+                <p>&copy; 2025 <span class="company-name">Paro <span class="ampersand">&</span> Pop</span> All rights reserved.</p>
             </div>
         </div>
     </footer>
     
     <script src="script.js"></script>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            const nav = document.querySelector('nav');
+            
+            if (!nav.contains(event.target) && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+    </script>
 </body>
 </html>

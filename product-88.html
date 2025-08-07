@@ -15,6 +15,7 @@
     <meta property="og:type" content="product">
     
     <link rel="canonical" href="https://handmadeearrings.com/product-88.html">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     
     <!-- Product Schema -->
@@ -62,7 +63,7 @@
         <nav>
             <div class="nav-container">
                 <div class="logo">
-                    <a href=".">Paro & Pop</a>
+                    <a href="."><span class="company-name">Paro <span class="ampersand">&</span> Pop</span></a>
                 </div>
                 <ul class="nav-menu">
                     <li><a href=".">Home</a></li>
@@ -259,7 +260,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 Paro & Pop All rights reserved.</p>
+                <p>&copy; 2025 <span class="company-name">Paro <span class="ampersand">&</span> Pop</span> All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -281,6 +282,27 @@
             const qty = document.getElementById('quantity');
             if (qty.value > 1) qty.value = parseInt(qty.value) - 1;
         }
+    </script>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            const nav = document.querySelector('nav');
+            
+            if (!nav.contains(event.target) && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
     </script>
 </body>
 </html>

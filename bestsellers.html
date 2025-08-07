@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bestselling Earrings | Paro & Pop</title>
     <meta name="description" content="Shop our most popular handmade earrings loved by thousands of customers. These are the designs that keep selling out!">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,7 +20,7 @@
         <nav>
             <div class="nav-container">
                 <div class="logo">
-                    <a href=".">Paro & Pop</a>
+                    <a href="."><span class="company-name">Paro <span class="ampersand">&</span> Pop</span></a>
                 </div>
                 <ul class="nav-menu">
                     <li><a href=".">Home</a></li>
@@ -255,7 +256,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 Paro & Pop All rights reserved.</p>
+                <p>&copy; 2025 <span class="company-name">Paro <span class="ampersand">&</span> Pop</span> All rights reserved.</p>
                 <p>
                     <a href="privacy-policy.html">Privacy Policy</a> | 
                     <a href="terms-of-service.html">Terms of Service</a> | 
@@ -271,6 +272,27 @@
             // Sorting functionality can be implemented here
             console.log('Sorting by:', sortBy);
         }
+    </script>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            const nav = document.querySelector('nav');
+            
+            if (!nav.contains(event.target) && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
     </script>
 </body>
 </html>

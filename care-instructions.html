@@ -8,6 +8,7 @@
     <meta name="keywords" content="earring care instructions, handmade jewelry care, wooden earrings maintenance, jewelry cleaning tips">
     
     <link rel="canonical" href="https://handmadeearrings.com/care-instructions.html">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     
     <script type="application/ld+json">
@@ -24,7 +25,7 @@
         <nav>
             <div class="nav-container">
                 <div class="logo">
-                    <a href=".">Paro & Pop</a>
+                    <a href="."><span class="company-name">Paro <span class="ampersand">&</span> Pop</span></a>
                 </div>
                 <ul class="nav-menu">
                     <li><a href=".">Home</a></li>
@@ -58,7 +59,7 @@
                 <p class="page-subtitle">Keep your beautiful handmade earrings looking stunning for years to come with our expert care guide. Proper care ensures longevity and preserves the artisan craftsmanship.</p>
             </div>
             
-            <section class="care-guide">
+            <section class="care-guide text-page">
                 <div class="care-overview">
                     <h2>💎 Quick Care Summary</h2>
                     <div class="care-highlights">
@@ -315,11 +316,32 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Paro & Pop All rights reserved.</p>
+                <p>&copy; 2025 <span class="company-name">Paro <span class="ampersand">&</span> Pop</span> All rights reserved.</p>
             </div>
         </div>
     </footer>
     
     <script src="script.js"></script>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            const nav = document.querySelector('nav');
+            
+            if (!nav.contains(event.target) && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+    </script>
 </body>
 </html>

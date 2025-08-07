@@ -15,6 +15,7 @@
     <meta property="product:price:currency" content="USD">
     
     <link rel="canonical" href="https://handmadeearrings.com/products/69-strawberry-dangle-earrings---flower-and-berry-design---strawberry-festival-jewelry---wooden--lightweight--hand-painted-and-assembled.html">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
     
     <script type="application/ld+json">
@@ -32,7 +33,7 @@
             "availability": "https://schema.org/InStock",
             "seller": {
                 "@type": "Organization",
-                "name": "Paro & Pop"
+                "name": "<span class="company-name">Paro <span class="ampersand">&</span> Pop</span>"
             }
         }
     }
@@ -222,7 +223,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Paro & Pop All rights reserved.</p>
+                <p>&copy; 2025 <span class="company-name">Paro <span class="ampersand">&</span> Pop</span> All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -252,6 +253,27 @@
             const qty = document.getElementById('quantity');
             if (qty.value > 1) qty.value = parseInt(qty.value) - 1;
         }
+    </script>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            const nav = document.querySelector('nav');
+            
+            if (!nav.contains(event.target) && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
     </script>
 </body>
 </html>

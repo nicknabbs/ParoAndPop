@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creepy Halloween Stud Collection Bloody Knife Vampire Werewolf Jack-o-Lantern  Skull  Witch  Scary Clown  RIP Tombstone Wooden Earrings | Handmade Earrings</title>
     <meta name="description" content="Creepy Halloween Stud Collection Bloody Knife Vampire Werewolf Jack-o-Lantern  Skull  Witch  Scary Clown  RIP Tombstone Wooden Earrings - Handmade earrings with hypoallergenic hooks. Only $26. Free shipping over $50.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -117,5 +118,26 @@
     </footer>
     
     <script src="../script.js"></script>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            const nav = document.querySelector('nav');
+            
+            if (!nav.contains(event.target) && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+    </script>
 </body>
 </html>

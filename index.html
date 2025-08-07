@@ -21,6 +21,7 @@
     <meta name="twitter:image" content="./images/110_Handmade Cat Earrings - Inspired by National Lampoon_s Christmas Vacation - 9 Lives -Unique Laser Cut and Hand Painted Jewelry_IMAGE1.jpg">
     
     <link rel="canonical" href="https://handmadeearrings.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     
@@ -92,7 +93,7 @@
         <nav>
             <div class="nav-container">
                 <div class="logo">
-                    <a href=".">Paro & Pop</a>
+                    <a href="."><span class="company-name">Paro <span class="ampersand">&</span> Pop</span></a>
                 </div>
                 <ul class="nav-menu">
                     <li><a href=".">Home</a></li>
@@ -354,7 +355,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 Paro & Pop All rights reserved.</p>
+                <p>&copy; 2025 <span class="company-name">Paro <span class="ampersand">&</span> Pop</span> All rights reserved.</p>
                 <p>
                     <a href="privacy-policy.html">Privacy Policy</a> | 
                     <a href="terms-of-service.html">Terms of Service</a> | 
@@ -377,5 +378,26 @@
     </div>
     
     <script src="script.js"></script>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navMenu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            const nav = document.querySelector('nav');
+            
+            if (!nav.contains(event.target) && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+    </script>
 </body>
 </html>
