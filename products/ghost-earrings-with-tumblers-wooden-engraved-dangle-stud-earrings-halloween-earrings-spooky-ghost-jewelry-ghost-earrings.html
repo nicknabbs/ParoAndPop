@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost Earrings with Tumblers   Wooden Engraved Dangle   Stud Earrings   Halloween Earrings   Spooky Ghost Jewelry    Ghost Earrings | Handmade Earrings | Artisan Jewelry</title>
+    <meta name="description" content="Ghost Earrings with Tumblers   Wooden Engraved Dangle   Stud Earrings   Halloween Earrings   Spooky Ghost Jewelry    Ghost Earrings - Handmade with hypoallergenic gold hooks. Ships in 1-2 days. Only $26. Free shipping over $50.">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .product-gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .main-image-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .main-image {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .thumbnail-row {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .thumbnail {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border: 2px solid transparent;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .thumbnail:hover {
+            border-color: #d4624a;
+        }
+        .thumbnail.active {
+            border-color: #d4624a;
+            box-shadow: 0 2px 8px rgba(212, 98, 74, 0.3);
+        }
+        .product-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        @media (max-width: 768px) {
+            .product-layout {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sale-banner" id="saleBanner">
+        <span class="sale-text">FREE SHIPPING on Orders Over $50! Offer ends in: <span id="countdown">47:59:59</span></span>
+        <button class="banner-close" onclick="closeBanner()">×</button>
+    </div>
+    
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="/">Artisan Earrings Co.</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products.html">Shop All</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li class="cart-link">
+                        <a href="/cart.html">Cart (<span id="cartCount">0</span>)</a>
+                    </li>
+                </ul>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div style="padding: 20px 0;">
+            <a href="/products.html" style="color: #666; text-decoration: none;">← Back to Shop</a>
+        </div>
+        
+        <div class="product-layout">
+            <!-- Image Gallery -->
+            <div class="product-gallery">
+                <div class="main-image-container">
+                    <img id="mainImage" src="../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE1.jpg" alt="Ghost Earrings with Tumblers   Wooden Engraved Dangle   Stud Earrings   Halloween Earrings   Spooky Ghost Jewelry    Ghost Earrings" class="main-image">
+                </div>
+                
+                <div class="thumbnail-row">
+                    
+                        <img src="../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE1.jpg" 
+                             alt="Ghost Earrings with Tumblers   Wooden Engraved Dangle   Stud Earrings   Halloween Earrings   Spooky Ghost Jewelry    Ghost Earrings view 1" 
+                             class="thumbnail active"
+                             onclick="changeMainImage(this, '../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE1.jpg')">
+                    
+                        <img src="../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE2.jpg" 
+                             alt="Ghost Earrings with Tumblers   Wooden Engraved Dangle   Stud Earrings   Halloween Earrings   Spooky Ghost Jewelry    Ghost Earrings view 2" 
+                             class="thumbnail "
+                             onclick="changeMainImage(this, '../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE2.jpg')">
+                    
+                        <img src="../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE3.jpg" 
+                             alt="Ghost Earrings with Tumblers   Wooden Engraved Dangle   Stud Earrings   Halloween Earrings   Spooky Ghost Jewelry    Ghost Earrings view 3" 
+                             class="thumbnail "
+                             onclick="changeMainImage(this, '../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE3.jpg')">
+                    
+                        <img src="../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE4.jpg" 
+                             alt="Ghost Earrings with Tumblers   Wooden Engraved Dangle   Stud Earrings   Halloween Earrings   Spooky Ghost Jewelry    Ghost Earrings view 4" 
+                             class="thumbnail "
+                             onclick="changeMainImage(this, '../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE4.jpg')">
+                    
+                        <img src="../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE5.jpg" 
+                             alt="Ghost Earrings with Tumblers   Wooden Engraved Dangle   Stud Earrings   Halloween Earrings   Spooky Ghost Jewelry    Ghost Earrings view 5" 
+                             class="thumbnail "
+                             onclick="changeMainImage(this, '../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE5.jpg')">
+                    
+                        <img src="../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE6.jpg" 
+                             alt="Ghost Earrings with Tumblers   Wooden Engraved Dangle   Stud Earrings   Halloween Earrings   Spooky Ghost Jewelry    Ghost Earrings view 6" 
+                             class="thumbnail "
+                             onclick="changeMainImage(this, '../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE6.jpg')">
+                    
+                        <img src="../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE7.jpg" 
+                             alt="Ghost Earrings with Tumblers   Wooden Engraved Dangle   Stud Earrings   Halloween Earrings   Spooky Ghost Jewelry    Ghost Earrings view 7" 
+                             class="thumbnail "
+                             onclick="changeMainImage(this, '../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE7.jpg')">
+                    
+                </div>
+                
+            </div>
+            
+            <!-- Product Info -->
+            <div>
+                <h1 style="font-size: 32px; margin-bottom: 20px;">Ghost Earrings with Tumblers   Wooden Engraved Dangle   Stud Earrings   Halloween Earrings   Spooky Ghost Jewelry    Ghost Earrings</h1>
+                
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                    <span style="font-size: 36px; color: #d4624a; font-weight: bold;">$26.00</span>
+                    <span style="color: #28a745; font-weight: 600;">✓ In Stock</span>
+                </div>
+                
+                <p style="color: #856404; background: #fff3cd; padding: 10px; border-radius: 4px; margin-bottom: 20px;">
+                    🔥 Only 4 left - order soon!
+                </p>
+                
+                <p style="line-height: 1.8; margin-bottom: 30px;">
+                    These beautiful handmade ghost earrings with tumblers   wooden engraved dangle   stud earrings   halloween earrings   spooky ghost jewelry    ghost earrings are crafted with love and attention to detail. 
+                    Each pair features hypoallergenic gold-plated hooks perfect for sensitive ears, and lightweight 
+                    wooden construction for comfortable all-day wear. Hand-painted and sealed for durability, these 
+                    earrings make a perfect gift or a special treat for yourself.
+                </p>
+                
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+                    <h3 style="margin-bottom: 15px;">Product Features:</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">✓ Hypoallergenic gold-plated hooks</li>
+                        <li style="margin-bottom: 10px;">✓ Lightweight wooden construction</li>
+                        <li style="margin-bottom: 10px;">✓ Hand-painted and sealed</li>
+                        <li style="margin-bottom: 10px;">✓ Approximately 1.5 inches</li>
+                        <li style="margin-bottom: 10px;">✓ Handmade in USA</li>
+                        <li style="margin-bottom: 10px;">✓ Ships in 1-2 business days</li>
+                        <li>✓ Gift-ready packaging included</li>
+                    </ul>
+                </div>
+                
+                <div style="display: flex; gap: 15px; align-items: center; margin-bottom: 20px;">
+                    <div style="display: flex; align-items: center; gap: 5px;">
+                        <button onclick="decreaseQty()" style="width: 35px; height: 35px; border: 1px solid #ddd; background: white; cursor: pointer;">-</button>
+                        <input type="number" id="quantity" value="1" min="1" max="5" style="width: 50px; text-align: center; border: 1px solid #ddd; height: 35px;">
+                        <button onclick="increaseQty()" style="width: 35px; height: 35px; border: 1px solid #ddd; background: white; cursor: pointer;">+</button>
+                    </div>
+                    <button class="btn-primary" style="flex: 1; padding: 15px; font-size: 18px;" 
+                            onclick="addToCart('ghost-earrings-with-tumblers-wooden-engraved-dangle-stud-earrings-halloween-earrings-spooky-ghost-jewelry-ghost-earrings', 'Ghost Earrings with Tumblers   Wooden Engraved Dangle   Stud Earrings   Halloween Earrings   Spooky Ghost Jewelry    Ghost Earrings', 26, '../images/58_Ghost Earrings with Tumblers _ Wooden Engraved Dangle _ Stud Earrings _ Halloween Earrings _ Spooky Ghost Jewelry _  Ghost Earrings_IMAGE1.jpg')">
+                        Add to Cart
+                    </button>
+                </div>
+                
+                <div style="text-align: center; padding: 15px; background: #e8f5e9; border-radius: 8px; margin-bottom: 20px;">
+                    <span style="color: #666;">Add $24.00 more for FREE shipping!</span>
+                </div>
+                
+                <details style="margin-bottom: 15px; padding: 15px; background: #f8f9fa; border-radius: 8px;">
+                    <summary style="cursor: pointer; font-weight: 600;">Care Instructions</summary>
+                    <p style="margin-top: 10px;">
+                        To keep your earrings looking beautiful: Store in a dry place away from direct sunlight. 
+                        Avoid contact with water, perfumes, and lotions. Clean gently with a soft, dry cloth.
+                    </p>
+                </details>
+                
+                <details style="margin-bottom: 15px; padding: 15px; background: #f8f9fa; border-radius: 8px;">
+                    <summary style="cursor: pointer; font-weight: 600;">Shipping & Returns</summary>
+                    <p style="margin-top: 10px;">
+                        Ships within 1-2 business days via USPS First Class Mail. Free shipping on orders over $50. 
+                        We offer hassle-free 30-day returns - if you're not completely satisfied, return for a full refund.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </div>
+    
+    <footer style="margin-top: 60px; background: #333; color: white; padding: 40px 0;">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="/products.html">All Products</a></li>
+                        <li><a href="/bestsellers.html">Bestsellers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="/shipping-policy.html">Shipping</a></li>
+                        <li><a href="/faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="/about.html">Our Story</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../script.js"></script>
+    <script>
+        function changeMainImage(thumb, newSrc) {
+            document.getElementById('mainImage').src = newSrc;
+            document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+            thumb.classList.add('active');
+        }
+        
+        function increaseQty() {
+            const qty = document.getElementById('quantity');
+            if (parseInt(qty.value) < 5) qty.value = parseInt(qty.value) + 1;
+        }
+        
+        function decreaseQty() {
+            const qty = document.getElementById('quantity');
+            if (parseInt(qty.value) > 1) qty.value = parseInt(qty.value) - 1;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Earrings Collection 2025 | Artisan Earrings Co.</title>
+    <meta name="description" content="Discover our handcrafted holiday earrings collection featuring festive designs, movie-inspired pieces, and classic Christmas symbols.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sale Banner -->
+    <div class="sale-banner" id="saleBanner">
+        <span class="sale-text">FREE SHIPPING on Orders Over $50!</span>
+        <button class="banner-close" onclick="closeBanner()">×</button>
+    </div>
+    
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <a href=".">Artisan Earrings Co.</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href=".">Home</a></li>
+                    <li><a href="products.html">Shop All</a></li>
+                    <li class="dropdown">
+                        <a href="collections.html">Collections</a>
+                        <div class="dropdown-content">
+                            <a href="christmas-collection.html" class="active">Christmas Collection</a>
+                            <a href="halloween-collection.html">Halloween Collection</a>
+                            <a href="racing-collection.html">F1 Racing Collection</a>
+                            <a href="music-collection.html">Music Collection</a>
+                            <a href="bestsellers.html">Bestsellers</a>
+                        </div>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="cart-link">
+                        <a href="cart.html">
+                            Cart (<span id="cartCount">0</span>)
+                        </a>
+                    </li>
+                </ul>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Collection Hero -->
+    <div class="collection-hero">
+        <h1>Christmas Earrings Collection 2025</h1>
+        <p>Discover our handcrafted holiday earrings collection featuring festive designs, movie-inspired pieces, and classic Christmas symbols.</p>
+    </div>
+    
+    <!-- Collection Filters -->
+    <div class="collection-filters">
+        <div class="results-count">Showing 20 products</div>
+        <select id="sort" onchange="sortProducts(this.value)">
+            <option value="featured">Sort by: Featured</option>
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="name">Name: A to Z</option>
+        </select>
+    </div>
+    
+    <!-- Products Grid -->
+    <div class="products-grid">
+
+                    <a href="product-104.html" class="collection-product-card">
+                        <img src="./images/104_Handcrafted Wooden Christmas Stud Earrings - Festive Snowman_ Santa_ Candy Cane Designs - Perfect Holiday Gift_IMAGE1.jpg" 
+                             alt="Handcrafted Wooden Christmas Stud Earrings - Festive Snowman  Santa  Candy Cane Designs - Perfect Holiday Gift" 
+                             loading="eager">
+                        <div class="product-info">
+                            <h3>Handcrafted Wooden Christmas Stud Earrings - Festive Snowman  Santa  Candy Cane Designs - Perfect Holiday Gift</h3>
+                            <p class="product-price">$39</p>
+                        </div>
+                    </a>
+
+                    <a href="product-106.html" class="collection-product-card">
+                        <img src="./images/106_Adorable Handcrafted Gnome Earrings - Perfect for Garden Lovers - Unique Whimsical Jewelry - Cute Fantasy Accessories - Gift for Her_IMAGE1.jpg" 
+                             alt="Adorable Handcrafted Gnome Earrings - Perfect for Garden Lovers - Unique Whimsical Jewelry - Cute Fantasy Accessories - Gift for Her" 
+                             loading="eager">
+                        <div class="product-info">
+                            <h3>Adorable Handcrafted Gnome Earrings - Perfect for Garden Lovers - Unique Whimsical Jewelry - Cute Fantasy Accessories - Gift for Her</h3>
+                            <p class="product-price">$53</p>
+                        </div>
+                    </a>
+
+                    <a href="product-107.html" class="collection-product-card">
+                        <img src="./images/107_Santa Hat _ Moon Beard Earrings - Whimsical Christmas Jewelry with Star Charm - Unique Handcrafted Holiday Accessory_IMAGE1.jpg" 
+                             alt="Santa Hat   Moon Beard Earrings - Whimsical Christmas Jewelry with Star Charm - Unique Handcrafted Holiday Accessory" 
+                             loading="eager">
+                        <div class="product-info">
+                            <h3>Santa Hat   Moon Beard Earrings - Whimsical Christmas Jewelry with Star Charm - Unique Handcrafted Holiday Accessory</h3>
+                            <p class="product-price">$52</p>
+                        </div>
+                    </a>
+
+                    <a href="product-108.html" class="collection-product-card">
+                        <img src="./images/108_Buddy the Elf Shoe Earrings - Handcrafted Holiday Movie Inspired Jewelry - Festive Christmas Elf Accessory - Whimsical Winter Gift Idea_IMAGE1.jpg" 
+                             alt="Buddy the Elf Shoe Earrings - Handcrafted Holiday Movie Inspired Jewelry - Festive Christmas Elf Accessory - Whimsical Winter Gift Idea" 
+                             loading="eager">
+                        <div class="product-info">
+                            <h3>Buddy the Elf Shoe Earrings - Handcrafted Holiday Movie Inspired Jewelry - Festive Christmas Elf Accessory - Whimsical Winter Gift Idea</h3>
+                            <p class="product-price">$53</p>
+                        </div>
+                    </a>
+
+                    <a href="product-109.html" class="collection-product-card">
+                        <img src="./images/109_Handmade Santa Claus Christmas Earrings - Holiday Eucalyptus White Hardboard_ Stainless Steel Hooks_Hypoallergenic_ Sublimated for Longevity_IMAGE1.jpg" 
+                             alt="Handmade Santa Claus Christmas Earrings - Holiday Eucalyptus White Hardboard  Stainless Steel Hooks Hypoallergenic  Sublimated for Longevity" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Handmade Santa Claus Christmas Earrings - Holiday Eucalyptus White Hardboard  Stainless Steel Hooks Hypoallergenic  Sublimated for Longevity</h3>
+                            <p class="product-price">$45</p>
+                        </div>
+                    </a>
+
+                    <a href="product-110.html" class="collection-product-card">
+                        <img src="./images/110_Handmade Cat Earrings - Inspired by National Lampoon_s Christmas Vacation - 9 Lives -Unique Laser Cut and Hand Painted Jewelry_IMAGE1.jpg" 
+                             alt="Handmade Cat Earrings - Inspired by National Lampoon s Christmas Vacation - 9 Lives -Unique Laser Cut and Hand Painted Jewelry" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Handmade Cat Earrings - Inspired by National Lampoon s Christmas Vacation - 9 Lives -Unique Laser Cut and Hand Painted Jewelry</h3>
+                            <p class="product-price">$53</p>
+                        </div>
+                    </a>
+
+                    <a href="product-119.html" class="collection-product-card">
+                        <img src="./images/119_Personalized Family Christmas Ornament - Handpainted Wooden Keepsake_ Customizable Festive Decor_ Two Sizes Available_IMAGE1.jpg" 
+                             alt="Personalized Family Christmas Ornament - Handpainted Wooden Keepsake  Customizable Festive Decor  Two Sizes Available" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Personalized Family Christmas Ornament - Handpainted Wooden Keepsake  Customizable Festive Decor  Two Sizes Available</h3>
+                            <p class="product-price">$54</p>
+                        </div>
+                    </a>
+
+                    <a href="product-128.html" class="collection-product-card">
+                        <img src="./images/128_Christmas Melted Snowman Ornament - 3 Variations _Red_ Green_ Black Hat_ - Laser Engraved _ Hand-Painted - Unique Holiday Gift 2024_IMAGE1.jpg" 
+                             alt="Christmas Melted Snowman Ornament - 3 Variations  Red  Green  Black Hat  - Laser Engraved   Hand-Painted - Unique Holiday Gift 2024" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Christmas Melted Snowman Ornament - 3 Variations  Red  Green  Black Hat  - Laser Engraved   Hand-Painted - Unique Holiday Gift 2024</h3>
+                            <p class="product-price">$42</p>
+                        </div>
+                    </a>
+
+                    <a href="product-129.html" class="collection-product-card">
+                        <img src="./images/129_Custom Office Coworker Christmas Ornament with Names - Personalized _Best Team Ever_ 2024 - Layered_ Hand-Painted Wooden_IMAGE1.jpg" 
+                             alt="Custom Office Coworker Christmas Ornament with Names - Personalized  Best Team Ever  2024 - Layered  Hand-Painted Wooden" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Custom Office Coworker Christmas Ornament with Names - Personalized  Best Team Ever  2024 - Layered  Hand-Painted Wooden</h3>
+                            <p class="product-price">$45</p>
+                        </div>
+                    </a>
+
+                    <a href="product-130.html" class="collection-product-card">
+                        <img src="./images/130_Handmade Christmas Rudolph Reindeer Dangle Earrings _ Hand Painted Teardrop Holiday Jewelry _ Sealed Protection _ Gift for Her_IMAGE1.jpg" 
+                             alt="Handmade Christmas Rudolph Reindeer Dangle Earrings   Hand Painted Teardrop Holiday Jewelry   Sealed Protection   Gift for Her" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Handmade Christmas Rudolph Reindeer Dangle Earrings   Hand Painted Teardrop Holiday Jewelry   Sealed Protection   Gift for Her</h3>
+                            <p class="product-price">$40</p>
+                        </div>
+                    </a>
+
+                    <a href="product-131.html" class="collection-product-card">
+                        <img src="./images/131_Hand-Painted Gingerbread Earrings _ Laser-Cut Wooden Holiday Jewelry _ Christmas Gift for Women_IMAGE1.jpg" 
+                             alt="Hand-Painted Gingerbread Earrings   Laser-Cut Wooden Holiday Jewelry   Christmas Gift for Women" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Hand-Painted Gingerbread Earrings   Laser-Cut Wooden Holiday Jewelry   Christmas Gift for Women</h3>
+                            <p class="product-price">$39</p>
+                        </div>
+                    </a>
+
+                    <a href="product-13.html" class="collection-product-card">
+                        <img src="./images/13_Personalized Elf Report Ornament for Kids _ Naughty or Nice Slider _ Custom Christmas Decor with Child_s Name- FREE Shipping_IMAGE1.jpg" 
+                             alt="Personalized Elf Report Ornament for Kids   Naughty or Nice Slider   Custom Christmas Decor with Child s Name- FREE Shipping" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Personalized Elf Report Ornament for Kids   Naughty or Nice Slider   Custom Christmas Decor with Child s Name- FREE Shipping</h3>
+                            <p class="product-price">$54</p>
+                        </div>
+                    </a>
+
+                    <a href="product-18.html" class="collection-product-card">
+                        <img src="./images/18_Festive Christmas Gnome Earrings _ Hand-Painted Holiday Jewelry _Cute Wooden Gnome Earrings for Christmas_ Lightweight _ Fun _Free Shipping__IMAGE1.jpg" 
+                             alt="Festive Christmas Gnome Earrings   Hand-Painted Holiday Jewelry  Cute Wooden Gnome Earrings for Christmas  Lightweight   Fun  Free Shipping " 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Festive Christmas Gnome Earrings   Hand-Painted Holiday Jewelry  Cute Wooden Gnome Earrings for Christmas  Lightweight   Fun  Free Shipping </h3>
+                            <p class="product-price">$46</p>
+                        </div>
+                    </a>
+
+                    <a href="product-1.html" class="collection-product-card">
+                        <img src="./images/1_Handpainted Christmas Light Earrings_ Eco-Friendly Wooden Holiday Dangles_ Festive Hypoallergenic Gold Hooks_ Artisan Xmas Jewelry_IMAGE1.jpg" 
+                             alt="Handpainted Christmas Light Earrings  Eco-Friendly Wooden Holiday Dangles  Festive Hypoallergenic Gold Hooks  Artisan Xmas Jewelry" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Handpainted Christmas Light Earrings  Eco-Friendly Wooden Holiday Dangles  Festive Hypoallergenic Gold Hooks  Artisan Xmas Jewelry</h3>
+                            <p class="product-price">$48</p>
+                        </div>
+                    </a>
+
+                    <a href="product-23.html" class="collection-product-card">
+                        <img src="./images/23_Personalized Wooden Swan Ornament - Engraved Lakeland_ Florida - Custom City Name - Handmade Home Decor - Unique Christmas Ornament Gift_IMAGE1.jpg" 
+                             alt="Personalized Wooden Swan Ornament - Engraved Lakeland  Florida - Custom City Name - Handmade Home Decor - Unique Christmas Ornament Gift" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Personalized Wooden Swan Ornament - Engraved Lakeland  Florida - Custom City Name - Handmade Home Decor - Unique Christmas Ornament Gift</h3>
+                            <p class="product-price">$39</p>
+                        </div>
+                    </a>
+
+                    <a href="product-25.html" class="collection-product-card">
+                        <img src="./images/25_Christmas Elf Hat Earrings - Buddy Inspired_ Festive Holiday Jewelry_ Handcrafted_ Unique Secret Santa Gift_ Lightweight Wood -FREE Shipping_IMAGE1.jpg" 
+                             alt="Christmas Elf Hat Earrings - Buddy Inspired  Festive Holiday Jewelry  Handcrafted  Unique Secret Santa Gift  Lightweight Wood -FREE Shipping" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Christmas Elf Hat Earrings - Buddy Inspired  Festive Holiday Jewelry  Handcrafted  Unique Secret Santa Gift  Lightweight Wood -FREE Shipping</h3>
+                            <p class="product-price">$54</p>
+                        </div>
+                    </a>
+
+                    <a href="product-32.html" class="collection-product-card">
+                        <img src="./images/32_Santa Hat Boho Floral Earrings _ Handcrafted_ Wooden_ Hand-Painted Christmas Dangle Earrings - Holiday Gift for Her_IMAGE1.jpg" 
+                             alt="Santa Hat Boho Floral Earrings   Handcrafted  Wooden  Hand-Painted Christmas Dangle Earrings - Holiday Gift for Her" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Santa Hat Boho Floral Earrings   Handcrafted  Wooden  Hand-Painted Christmas Dangle Earrings - Holiday Gift for Her</h3>
+                            <p class="product-price">$52</p>
+                        </div>
+                    </a>
+
+                    <a href="product-35.html" class="collection-product-card">
+                        <img src="./images/35_Funny Christmas Ornament _ Sarcastic Parent Holiday Decor _ Wood Tree Tops Glisten Quote _ Rustic Handcrafted Gift _ Mom Humor_IMAGE1.jpg" 
+                             alt="Funny Christmas Ornament   Sarcastic Parent Holiday Decor   Wood Tree Tops Glisten Quote   Rustic Handcrafted Gift   Mom Humor" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Funny Christmas Ornament   Sarcastic Parent Holiday Decor   Wood Tree Tops Glisten Quote   Rustic Handcrafted Gift   Mom Humor</h3>
+                            <p class="product-price">$48</p>
+                        </div>
+                    </a>
+
+                    <a href="product-36.html" class="collection-product-card">
+                        <img src="./images/36_Hand-Painted Christmas Tree Earrings _ Festive Holiday Jewelry _ Pearl Ornaments _ Star _ Free Shipping__IMAGE1.jpg" 
+                             alt="Hand-Painted Christmas Tree Earrings   Festive Holiday Jewelry   Pearl Ornaments   Star   Free Shipping " 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Hand-Painted Christmas Tree Earrings   Festive Holiday Jewelry   Pearl Ornaments   Star   Free Shipping </h3>
+                            <p class="product-price">$52</p>
+                        </div>
+                    </a>
+
+                    <a href="product-37.html" class="collection-product-card">
+                        <img src="./images/37_Hand-Painted Wooden Cardinal Stud Earrings _ Red Bird Christmas _ Memorial Gift _ Lightweight Basswood Nature Jewelry_ Made in USA_ Handmade_IMAGE1.jpg" 
+                             alt="Hand-Painted Wooden Cardinal Stud Earrings   Red Bird Christmas   Memorial Gift   Lightweight Basswood Nature Jewelry  Made in USA  Handmade" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Hand-Painted Wooden Cardinal Stud Earrings   Red Bird Christmas   Memorial Gift   Lightweight Basswood Nature Jewelry  Made in USA  Handmade</h3>
+                            <p class="product-price">$54</p>
+                        </div>
+                    </a>
+    </div>
+    
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Get 10% Off Your First Order!</h2>
+            <p>Join our newsletter for exclusive deals</p>
+            <form id="newsletterForm" onsubmit="subscribeNewsletter(event)">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn-primary">Subscribe & Save</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="products.html">All Products</a></li>
+                        <li><a href="christmas-collection.html">Christmas Collection</a></li>
+                        <li><a href="halloween-collection.html">Halloween Collection</a></li>
+                        <li><a href="bestsellers.html">Bestsellers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                        <li><a href="returns-policy.html">Returns Policy</a></li>
+                        <li><a href="care-instructions.html">Care Instructions</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="how-its-made.html">How It's Made</a></li>
+                        <li><a href="sustainable-handmade-jewelry.html">Sustainability</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Connect</h3>
+                    <p>Follow us for daily inspiration!</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Pinterest">📌</a>
+                    </div>
+                    <div class="trust-badges">
+                        <p>🇺🇸 Handmade in USA</p>
+                        <p>🔒 Secure Checkout</p>
+                        <p>📦 Fast Shipping</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Artisan Earrings Co. All rights reserved.</p>
+                <p>
+                    <a href="privacy-policy.html">Privacy Policy</a> | 
+                    <a href="terms-of-service.html">Terms of Service</a> | 
+                    <a href="sitemap.xml">Sitemap</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script>
+        function sortProducts(sortBy) {
+            // Sorting functionality can be implemented here
+            console.log('Sorting by:', sortBy);
+        }
+    </script>
+</body>
+</html>

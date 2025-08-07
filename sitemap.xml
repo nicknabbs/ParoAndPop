@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Homepage - Highest Priority -->
+    <url>
+        <loc>https://handmadeearrings.com/</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Main Shop Pages -->
+    <url>
+        <loc>https://handmadeearrings.com/products.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/bestsellers.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Collection Pages -->
+    <url>
+        <loc>https://handmadeearrings.com/christmas-collection.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/halloween-collection.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/racing-collection.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/music-collection.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Top Product Pages -->
+    <url>
+        <loc>https://handmadeearrings.com/product-110.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://handmadeearrings.com/images/110_Handmade Cat Earrings - Inspired by National Lampoon_s Christmas Vacation - 9 Lives -Unique Laser Cut and Hand Painted Jewelry_IMAGE1.jpg</image:loc>
+            <image:title>Christmas Vacation Cat Earrings</image:title>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-1.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-104.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-107.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-108.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-109.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-130.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-131.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- SEO Gift Guide Pages -->
+    <url>
+        <loc>https://handmadeearrings.com/best-christmas-earrings-2025.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/christmas-vacation-cat-earrings-guide.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/stocking-stuffers-for-her.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/handmade-gifts-under-40.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/f1-racing-fan-gifts.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/halloween-earrings-guide.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/teacher-appreciation-gifts.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/music-lover-jewelry.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/sustainable-handmade-jewelry.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/personalized-holiday-gifts.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Landing Pages -->
+    <url>
+        <loc>https://handmadeearrings.com/where-to-buy-christmas-vacation-cat-earrings.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/christmas-vacation-jewelry-official.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Information Pages -->
+    <url>
+        <loc>https://handmadeearrings.com/about.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/how-its-made.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/care-instructions.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/shipping-policy.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/returns-policy.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/faq.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/reviews.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/contact.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- Additional Product Pages -->
+    <url>
+        <loc>https://handmadeearrings.com/product-10.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-11.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-12.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-14.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-16.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-20.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-100.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-101.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-102.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-103.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-105.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-106.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-111.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-112.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-116.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-117.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-118.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-120.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-122.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-123.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-125.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/product-126.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Cart and Checkout (lower priority) -->
+    <url>
+        <loc>https://handmadeearrings.com/cart.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>https://handmadeearrings.com/checkout.html</loc>
+        <lastmod>2025-08-06</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.4</priority>
+    </url>
+</urlset>

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Local server files
+server.js
+
+# Build/fix scripts
+fix-*.js
+rebuild-*.js
+group-products.js
+remove-christmas.sh
+
+# Large image folders (we'll use Supabase for these)
+# Uncomment if you want to exclude images from git
+# images/

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Collection | Artisan Earrings Co.</title>
+    <meta name="description" content="Express your love for music with our unique music-themed earrings and accessories. Perfect for music lovers and concert-goers!">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sale Banner -->
+    <div class="sale-banner" id="saleBanner">
+        <span class="sale-text">FREE SHIPPING on Orders Over $50!</span>
+        <button class="banner-close" onclick="closeBanner()">×</button>
+    </div>
+    
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <a href=".">Artisan Earrings Co.</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href=".">Home</a></li>
+                    <li><a href="products.html">Shop All</a></li>
+                    <li class="dropdown">
+                        <a href="collections.html">Collections</a>
+                        <div class="dropdown-content">
+                            <a href="christmas-collection.html">Christmas Collection</a>
+                            <a href="halloween-collection.html">Halloween Collection</a>
+                            <a href="racing-collection.html">F1 Racing Collection</a>
+                            <a href="music-collection.html" class="active">Music Collection</a>
+                            <a href="bestsellers.html">Bestsellers</a>
+                        </div>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="cart-link">
+                        <a href="cart.html">
+                            Cart (<span id="cartCount">0</span>)
+                        </a>
+                    </li>
+                </ul>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Collection Hero -->
+    <div class="collection-hero">
+        <h1>Music Collection</h1>
+        <p>Express your love for music with our unique music-themed earrings and accessories. Perfect for music lovers and concert-goers!</p>
+    </div>
+    
+    <!-- Collection Filters -->
+    <div class="collection-filters">
+        <div class="results-count">Showing 9 products</div>
+        <select id="sort" onchange="sortProducts(this.value)">
+            <option value="featured">Sort by: Featured</option>
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="name">Name: A to Z</option>
+        </select>
+    </div>
+    
+    <!-- Products Grid -->
+    <div class="products-grid">
+
+                    <a href="product-15.html" class="collection-product-card">
+                        <img src="./images/15_Custom Event Luggage Tag Guster Fans Travel Gift Accessory_IMAGE1.jpg" 
+                             alt="Custom Event Luggage Tag Guster Fans Travel Gift Accessory" 
+                             loading="eager">
+                        <div class="product-info">
+                            <h3>Custom Event Luggage Tag Guster Fans Travel Gift Accessory</h3>
+                            <p class="product-price">$51</p>
+                        </div>
+                    </a>
+
+                    <a href="product-19.html" class="collection-product-card">
+                        <img src="./images/19_Guster the band wooden pin featuring Big Friend from the album Parachute_IMAGE1.jpg" 
+                             alt="Guster the band wooden pin featuring Big Friend from the album Parachute" 
+                             loading="eager">
+                        <div class="product-info">
+                            <h3>Guster the band wooden pin featuring Big Friend from the album Parachute</h3>
+                            <p class="product-price">$47</p>
+                        </div>
+                    </a>
+
+                    <a href="product-21.html" class="collection-product-card">
+                        <img src="./images/21_Handmade Guster Big Friend Badge Reel - Unique Office Accessory_ Durable Retractable ID Holder_ Cute Band Inspired Design_IMAGE1.jpg" 
+                             alt="Handmade Guster Big Friend Badge Reel - Unique Office Accessory  Durable Retractable ID Holder  Cute Band Inspired Design" 
+                             loading="eager">
+                        <div class="product-info">
+                            <h3>Handmade Guster Big Friend Badge Reel - Unique Office Accessory  Durable Retractable ID Holder  Cute Band Inspired Design</h3>
+                            <p class="product-price">$54</p>
+                        </div>
+                    </a>
+
+                    <a href="product-22.html" class="collection-product-card">
+                        <img src="./images/22_Guster Big Friend Album Pin_ Magnet_ Keychain - Exclusive Era Tour Music Merchandise_IMAGE1.jpg" 
+                             alt="Guster Big Friend Album Pin  Magnet  Keychain - Exclusive Era Tour Music Merchandise" 
+                             loading="eager">
+                        <div class="product-info">
+                            <h3>Guster Big Friend Album Pin  Magnet  Keychain - Exclusive Era Tour Music Merchandise</h3>
+                            <p class="product-price">$38</p>
+                        </div>
+                    </a>
+
+                    <a href="product-26.html" class="collection-product-card">
+                        <img src="./images/26_Guster Band Hair Claw Clip With Album Icons Logos Large Small_IMAGE1.jpg" 
+                             alt="Guster Band Hair Claw Clip With Album Icons Logos Large Small" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Guster Band Hair Claw Clip With Album Icons Logos Large Small</h3>
+                            <p class="product-price">$53</p>
+                        </div>
+                    </a>
+
+                    <a href="product-27.html" class="collection-product-card">
+                        <img src="./images/27_Guster-Inspired Earrings _ Keychains - Parachute Album Nostalgia_IMAGE1.jpg" 
+                             alt="Guster-Inspired Earrings   Keychains - Parachute Album Nostalgia" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Guster-Inspired Earrings   Keychains - Parachute Album Nostalgia</h3>
+                            <p class="product-price">$35</p>
+                        </div>
+                    </a>
+
+                    <a href="product-38.html" class="collection-product-card">
+                        <img src="./images/38_Guster the band wooden pin with tie tack butterfly clutch backing_IMAGE1.jpg" 
+                             alt="Guster the band wooden pin with tie tack butterfly clutch backing" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Guster the band wooden pin with tie tack butterfly clutch backing</h3>
+                            <p class="product-price">$36</p>
+                        </div>
+                    </a>
+
+                    <a href="product-48.html" class="collection-product-card">
+                        <img src="./images/48_Tic Tac Toe Game Homemade and Hand-Painted Wooden Board Game Featuring Guster Ping Pong Ball Airport Song Big Friend Music Fan Gift_IMAGE1.jpg" 
+                             alt="Tic Tac Toe Game Homemade and Hand-Painted Wooden Board Game Featuring Guster Ping Pong Ball Airport Song Big Friend Music Fan Gift" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Tic Tac Toe Game Homemade and Hand-Painted Wooden Board Game Featuring Guster Ping Pong Ball Airport Song Big Friend Music Fan Gift</h3>
+                            <p class="product-price">$45</p>
+                        </div>
+                    </a>
+
+                    <a href="product-4.html" class="collection-product-card">
+                        <img src="./images/4_Quirky Guster Band Earrings _ Handmade Sublimated Wood Jewelry for Fans_IMAGE1.jpg" 
+                             alt="Quirky Guster Band Earrings   Handmade Sublimated Wood Jewelry for Fans" 
+                             loading="lazy">
+                        <div class="product-info">
+                            <h3>Quirky Guster Band Earrings   Handmade Sublimated Wood Jewelry for Fans</h3>
+                            <p class="product-price">$38</p>
+                        </div>
+                    </a>
+    </div>
+    
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Get 10% Off Your First Order!</h2>
+            <p>Join our newsletter for exclusive deals</p>
+            <form id="newsletterForm" onsubmit="subscribeNewsletter(event)">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn-primary">Subscribe & Save</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="products.html">All Products</a></li>
+                        <li><a href="christmas-collection.html">Christmas Collection</a></li>
+                        <li><a href="halloween-collection.html">Halloween Collection</a></li>
+                        <li><a href="bestsellers.html">Bestsellers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                        <li><a href="returns-policy.html">Returns Policy</a></li>
+                        <li><a href="care-instructions.html">Care Instructions</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="how-its-made.html">How It's Made</a></li>
+                        <li><a href="sustainable-handmade-jewelry.html">Sustainability</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Connect</h3>
+                    <p>Follow us for daily inspiration!</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Pinterest">📌</a>
+                    </div>
+                    <div class="trust-badges">
+                        <p>🇺🇸 Handmade in USA</p>
+                        <p>🔒 Secure Checkout</p>
+                        <p>📦 Fast Shipping</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Artisan Earrings Co. All rights reserved.</p>
+                <p>
+                    <a href="privacy-policy.html">Privacy Policy</a> | 
+                    <a href="terms-of-service.html">Terms of Service</a> | 
+                    <a href="sitemap.xml">Sitemap</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script>
+        function sortProducts(sortBy) {
+            // Sorting functionality can be implemented here
+            console.log('Sorting by:', sortBy);
+        }
+    </script>
+</body>
+</html>
